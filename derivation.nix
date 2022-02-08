@@ -5,4 +5,5 @@ buildGoModule {
   inherit version;
   vendorSha256 = "sha256-tehTguY/PqgmmAqMDH/w6oG2jvC/pXqf+/Ix/YNMsF0=";
   src = gitignore-source.lib.gitignoreSource sources;
+  checkPhase = "true";
 }
